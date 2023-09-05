@@ -1,7 +1,10 @@
 import React from 'react'
+import { todoForm } from './TodoForm'
 
-export const 'ToDoWrapper' = () => {
+export const TodoWrapper = () => {
   return (
-    <div>'ToDoWrapper'</div>
+    <div className='TodoWrapper'>
+      <todoForm />
+    </div>
   )
 }
